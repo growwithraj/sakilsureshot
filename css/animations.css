@@ -1,0 +1,22 @@
+@keyframes pulse{
+0%{box-shadow:0 0 0 0 rgba(24,243,218,.7);}
+70%{box-shadow:0 0 0 14px rgba(24,243,218,0);}
+100%{box-shadow:0 0 0 0 rgba(24,243,218,0);}
+}
+
+/* LIVE JOIN POPUP */
+#liveJoin{
+position:fixed;
+top:12px;
+left:50%;
+transform:translateX(-50%);
+background:#062626;
+padding:10px 20px;
+border-radius:30px;
+font-size:14px;
+box-shadow:0 0 15px rgba(0,255,220,.6);
+opacity:0;
+transition:.4s;
+z-index:999;
+white-space:nowrap;
+}

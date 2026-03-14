@@ -1,0 +1,42 @@
+.features{
+text-align:left;
+margin:16px 0;
+}
+
+.features li{
+list-style:none;
+font-size:14px;
+margin:8px 0;
+}
+
+.features li::before{
+content:"★";
+color:#ffd54a;
+margin-right:8px;
+}
+
+.counter{
+margin-top:10px;
+font-weight:700;
+color:#18f3da;
+font-size:14px;
+}
+
+.redirect{
+margin-top:10px;
+font-size:13px;
+color:#ffd54a;
+}
+
+.footer{
+border-top:1px solid rgba(255,255,255,.08);
+margin-top:18px;
+padding-top:14px;
+font-size:13px;
+color:#9fded7;
+}
+
+.highlight{
+color:var(--primary);
+font-weight:700;
+}
